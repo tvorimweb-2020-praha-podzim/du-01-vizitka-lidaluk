@@ -1,0 +1,72 @@
+body{
+  background-color: #eae7e4;
+  color: #4d4B4B;
+  font-family: 'Hind', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin:0;
+}
+
+header{
+  background-image: url("Background_pic.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #eae7e4;
+  text-transform: uppercase;
+  font-size:3rem;
+  padding:4rem 0;
+  margin:0;
+}
+
+.topnav {
+  float:right;
+  text-transform: uppercase;
+}
+
+.topnav li{
+  display: inline-block;
+}
+
+.topnav a{
+  color: #eae7e4;
+  background-color: #787675;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 2rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav a:hover,
+.topnav a:focus,
+.topnav a:active {
+  background-color: #4d4B4B;
+  color:white;
+}
+
+section{
+  margin-top: 4rem;
+}
+
+p{
+  display:block;
+  margin-right: 4rem;
+}
+
+.photo-aboutme{
+  width: 20rem;
+  height: auto;
+  float: left;
+  margin: 0 4rem;
+}
+
+.contact{
+  padding-left:4rem;
+}
